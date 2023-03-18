@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity2">
+
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginBottom="8dp"
+
+        android:background="#E83845"
+        android:gravity="center"
+        android:text="Salary Calculator"
+        android:textColor="#FFF"
+        android:textSize="20dp"
+        android:textStyle="bold"
+
+
+        />
+    //------------------------------------------------------
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#E83845"
+        android:text="Gross Salary"
+        android:textColor="#fff"
+        android:textStyle="bold"
+
+        />
+
+    <EditText
+        android:id="@+id/et1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Gross Salary"
+        android:textColor="#f00" />
+    //------------------------------------------------------
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#E83845"
+        android:text="Day Hours Over Time"
+        android:textColor="#fff"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/et2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter how many overtime day hours"
+        android:textColor="#f00" />
+    //------------------------------------------------------
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#E83845"
+        android:text="Nigh Hours Over Time"
+        android:textColor="#fff"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/et3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter how many overtime night hours"
+        android:textColor="#f00" />
+    //------------------------------------------------------
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#E83845"
+        android:text="Manager Bonus"
+        android:textColor="#fff"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/et4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Your Manager Bonus"
+        android:textColor="#f00" />
+    //------------------------------------------------------
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#E83845"
+        android:text="Yearly Bonus"
+        android:textColor="#fff"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/et5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter No of months"
+        android:textColor="#f00" />
+    //------------------------------------------------------
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#E83845"
+        android:text="Cleaning/Audit Bonus"
+        android:textColor="#fff"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/et6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="% Enter Percentage of the Bonus"
+        android:textColor="#f00" />
+    //------------------------------------------------------
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#E83845"
+        android:text="Deduction Amount"
+        android:textColor="#fff"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/et7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Deduction amount"
+        android:textColor="#f00" />
+
+    //------------------------------------------------------
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/bu_calculate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginRight="15dp"
+            android:text="Calculate" />
+
+        <Button
+            android:id="@+id/bu_clear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:text="Clear" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#E83845"
+            android:text="Result"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:layout_marginBottom="10dp"
+
+            />
+    </LinearLayout>
+
+
+    <EditText
+        android:id="@+id/et8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#288"
+        android:hint="Final Result"
+        android:textColorHint="#fff"
+        android:textColor="#f00" />
+
+    <Button
+        android:id="@+id/bu_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back to Main"
+
+        android:layout_gravity="center"
+        />
+
+</LinearLayout>
